@@ -2,74 +2,65 @@ DESKTOP-22G7I84
 omer
 /home/omer/Desktop/CE103
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root         1  0.0  0.0   8944   100 ?        Ssl  20:48   0:00 /init
-root         7  0.0  0.0   8944    96 tty1     Ss   20:48   0:00 /init
-omer         8  0.0  0.0  18080  1736 tty1     S    20:48   0:00 -bash
-omer        24  0.0  0.0  15080   228 tty1     S    20:48   0:00 /usr/bin/dbus-launch --sh-syntax --exit-with-session xfce4-session
-omer        25  0.0  0.0  15596   804 ?        Ss   20:48   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
-omer        47  0.0  0.0 387120   820 ?        Sl   20:48   0:00 /usr/libexec/at-spi-bus-launcher
-omer        53  0.0  0.0  15420  1140 ?        S    20:49   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
-omer        58  0.0  0.0 311952   836 ?        Sl   20:49   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
-omer        67  0.0  0.0 242720  1408 ?        Sl   20:49   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
-omer        77  0.0  0.0  14080   148 ?        Ss   20:49   0:00 /usr/bin/ssh-agent -s
-omer        80  0.0  0.0  90984   240 ?        Ss   20:49   0:00 /usr/bin/gpg-agent --sh --daemon --write-env-file /home/omer/.cache/gpg-agent-info
-omer        93  0.0  0.0 320640   964 ?        Sl   20:49   0:00 /usr/libexec/gvfsd
-omer       148  0.0  0.0 344068  5900 ?        Sl   20:49   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
-omer       156  0.0  0.0 319876   844 ?        Sl   20:49   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
-omer       173  0.0  0.0 316580   736 ?        Sl   20:49   0:00 /usr/libexec/gvfs-mtp-volume-monitor
-omer       182  0.0  0.0 506500  7556 tty1     Sl   20:49   0:00 nm-applet
-omer       195  0.0  0.0 318856   792 ?        Sl   20:49   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
-omer       226  0.0  0.0 316800   740 ?        Sl   20:49   0:00 /usr/libexec/gvfs-goa-volume-monitor
-omer       228  0.0  0.0 496216  7664 tty1     Sl   20:49   0:00 update-notifier
-omer       252  0.0  0.0 397648  1056 ?        Sl   20:49   0:00 /usr/libexec/gvfs-afc-volume-monitor
-omer       267  0.0  0.0 241940   728 tty1     Sl   20:49   0:00 xiccd
-omer       305  0.0  0.0 243068   620 ?        Sl   20:49   0:00 /usr/libexec/gvfsd-metadata
-omer       313  0.0  0.0 394724  1724 ?        Sl   20:49   0:00 /usr/libexec/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
-root       598  0.0  0.0   8944    96 tty2     Ss   21:13   0:00 /init
-omer       599  0.0  0.0  18080  1740 tty2     S    21:13   0:00 -bash
-omer       612  0.0  0.0 344728  6532 tty2     Sl   21:13   0:00 xfce4-session
-omer       615  0.0  0.0  15080   228 tty2     S    21:13   0:00 /usr/bin/dbus-launch --sh-syntax --exit-with-session xfce4-session
-omer       616  0.0  0.0  15736  1520 ?        Ss   21:13   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
-omer       621  0.0  0.0 311824  1732 ?        Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
-omer       635  0.0  0.0  14080   148 ?        Ss   21:13   0:00 /usr/bin/ssh-agent -s
-omer       640  0.0  0.0 305632  5872 ?        Ssl  21:13   0:00 xfsettingsd --display :0.0 --sm-client-id 2b52893a3-50ad-4d43-88fe-6413a69e4543
-omer       646  0.0  0.0 320640  1964 ?        Sl   21:13   0:00 /usr/libexec/gvfsd
-omer       657  0.0  0.1 349644  9736 tty2     Sl   21:13   0:01 xfce4-panel --display :0.0 --sm-client-id 26b0d49f5-576e-41bd-a5cb-fd3892eed641
-omer       662  0.0  0.2 469660 17348 tty2     Sl   21:13   0:02 Thunar --sm-client-id 2e9f73598-5280-4a1f-8c80-504e9a913c0a --daemon
-omer       668  0.0  0.3 399896 29824 tty2     Sl   21:13   0:00 xfdesktop --display :0.0 --sm-client-id 2fd58df4a-610f-45b0-b3fa-59ad2c0f0ebe
-omer       672  0.0  0.0 270196  5996 tty2     Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 6291464 systray Notification Area Area where notification icons appear
-omer       673  0.0  0.0 417896  6036 tty2     Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libstatusnotifier.so 7 6291465 statusnotifier Status Notifier Plugin Provides a panel area for status notifier items (application indicators)
-omer       674  0.0  0.1 476848 15356 tty2     Sl   21:13   0:02 xfce4-terminal --geometry=80x24 --display :0.0 --role=xfce4-terminal-1635411388-3145639086 --show-menubar --show-borders --hide-toolbar --active-tab --working-directory /home/omer/Desktop --sm-client-id 2c034aa15-3f87-4f80-86b0-33b9e2b65ff3
-omer       677  0.0  0.1 385852  9040 tty2     Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 8 6291466 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
-omer       682  0.0  0.0 316784  6908 tty2     Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 9 6291467 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
-omer       692  0.0  0.0 316624  6952 tty2     Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 10 6291468 notification-plugin Notification Plugin Notification plugin for the Xfce panel
-omer       693  0.0  0.0 267000  2900 ?        Ssl  21:13   0:00 xfce4-power-manager --restart --sm-client-id 28508b8fa-4ba0-4c53-8686-39e4fab91f8a
-omer       697  0.0  0.0 272960  7704 tty2     Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 14 6291469 actions Action Buttons Log out, lock or other system actions
-omer       704  0.0  0.0 319876  1832 ?        Sl   21:13   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
-omer       707  0.0  0.0 340880  2688 ?        Sl   21:13   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
-omer       722  0.0  0.0 501628  6148 tty2     Sl   21:13   0:00 nm-applet
-omer       719  0.0  0.0 316580  1628 ?        Sl   21:13   0:00 /usr/libexec/gvfs-mtp-volume-monitor
-omer       732  0.0  0.0 318856  1696 ?        Sl   21:13   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
-omer       747  0.0  0.0      0     0 ?        Zs   21:13   0:00 [bash] <defunct>
-omer       759  0.0  0.0 316800  1636 ?        Sl   21:13   0:00 /usr/libexec/gvfs-goa-volume-monitor
-omer       778  0.0  0.0 397648  1948 ?        Sl   21:13   0:00 /usr/libexec/gvfs-afc-volume-monitor
-omer       783  0.0  0.0 241940   728 tty2     Sl   21:13   0:00 xiccd
-omer       821  0.0  0.0 243172  1460 ?        Sl   21:13   0:00 /usr/libexec/gvfsd-metadata
-omer       825  0.0  0.0 394764  2600 ?        Sl   21:13   0:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
-omer       854  0.0  0.0  18048  2364 pts/1    Ss   21:15   0:00 bash
-omer      1052  0.0  0.0      0     0 ?        Zs   21:55   0:00 [vim] <defunct>
-omer      1119  0.0  0.0      0     0 ?        Zs   21:56   0:00 [vim] <defunct>
-omer      1123  1.7  2.0 3001636 172548 tty2   Sl   21:57   0:34 /usr/lib/firefox/firefox
-omer      1176  0.0  0.0 387040   756 ?        Sl   21:57   0:00 /usr/libexec/at-spi-bus-launcher
-omer      1212  0.0  0.3 2436308 30984 tty2    Sl   21:57   0:01 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 242090 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 1123 true tab
-omer      1273  0.0  0.2 2429264 19800 tty2    Sl   21:57   0:01 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 4779 -prefMapSize 242090 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 1123 true tab
-omer      1319  0.1  0.4 2433384 38996 tty2    Sl   21:57   0:03 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 5470 -prefMapSize 242090 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 1123 true tab
-omer      1362  0.2  0.3 2432352 28728 tty2    Sl   21:58   0:04 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 5690 -prefMapSize 242090 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 1123 true tab
-omer      1385  0.0  0.0 2392500 8160 tty2     Sl   21:58   0:00 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 5690 -prefMapSize 242090 -jsInit 286204 -parentBuildID 20210927210923 -appdir /usr/lib/firefox/browser 1123 true tab
-omer      1686  0.0  0.0      0     0 ?        Zs   22:28   0:00 [vim] <defunct>
-omer      1689  0.1  0.1 1000460 13576 ?       SNl  22:30   0:00 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
-omer      1706  0.0  0.0  16796  1916 pts/1    S    22:30   0:00 /bin/bash ./sample.sh
-omer      1709  0.0  0.0  18904  2056 pts/1    R    22:30   0:00 ps -aux
+root         1  0.0  0.0   8944   336 ?        Ssl  15:45   0:00 /init
+root         7  0.0  0.0   8944   232 tty1     Ss   15:45   0:00 /init
+omer         8  0.0  0.0  18080  3580 tty1     S    15:45   0:00 -bash
+omer        24  0.0  0.0  15080   796 tty1     S    15:45   0:00 /usr/bin/dbus-launch --sh-syntax --exit-with-session xfce4-session
+omer        25  0.0  0.0  15804  1872 ?        Ss   15:45   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+omer        47  0.0  0.0 387120  4016 ?        Sl   15:45   0:00 /usr/libexec/at-spi-bus-launcher
+omer        53  0.0  0.0  15424  2488 ?        S    15:45   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+omer        58  0.0  0.0 311856  3512 ?        Sl   15:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+omer        67  0.0  0.0 242720  4412 ?        Sl   15:45   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+omer        77  0.0  0.0  14080   340 ?        Ss   15:45   0:00 /usr/bin/ssh-agent -s
+omer        80  0.0  0.0  90984   980 ?        Ss   15:45   0:00 /usr/bin/gpg-agent --sh --daemon --write-env-file /home/omer/.cache/gpg-agent-info
+omer        88  0.0  0.0 320640  4364 ?        Sl   15:45   0:00 /usr/libexec/gvfsd
+omer       160  0.0  0.1 344064 14112 ?        Sl   15:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+omer       164  0.0  0.2 506496 22344 tty1     Sl   15:45   0:00 nm-applet
+omer       163  0.0  0.0 319876  4056 ?        Sl   15:45   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+omer       174  0.0  0.0 316580  3552 ?        Sl   15:45   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+omer       188  0.0  0.0 318856  3812 ?        Sl   15:45   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+omer       207  0.0  0.2 496268 19796 tty1     Sl   15:45   0:00 update-notifier
+omer       206  0.0  0.0 316804  3492 ?        Sl   15:45   0:00 /usr/libexec/gvfs-goa-volume-monitor
+omer       220  0.0  0.0 397648  4668 ?        Sl   15:45   0:00 /usr/libexec/gvfs-afc-volume-monitor
+omer       246  0.0  0.1 270668 11488 ?        Ssl  15:45   0:00 xfce4-power-manager
+omer       249  0.0  0.0 241940  3856 tty1     Sl   15:45   0:00 xiccd
+omer       257  0.0  0.0 243068  3364 ?        Sl   15:45   0:00 /usr/libexec/gvfsd-metadata
+omer       269  0.0  0.0 394756  5268 ?        Sl   15:45   0:00 /usr/libexec/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+omer      1551  0.3  0.1 344724 14628 tty1     Sl   17:06   0:00 xfce4-session
+omer      1554  0.0  0.0  15080   820 tty1     S    17:06   0:00 /usr/bin/dbus-launch --sh-syntax --exit-with-session xfce4-session
+omer      1555  0.2  0.0  15748  1816 ?        Ss   17:06   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+omer      1560  0.1  0.0 311824  3524 ?        Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+omer      1574  0.0  0.0  14080   348 ?        Ss   17:06   0:00 /usr/bin/ssh-agent -s
+omer      1579  0.1  0.1 305632 13512 ?        Ssl  17:06   0:00 xfsettingsd --display :0.0 --sm-client-id 2b52893a3-50ad-4d43-88fe-6413a69e4543
+omer      1590  0.0  0.0 320640  4408 ?        Sl   17:06   0:00 /usr/libexec/gvfsd
+omer      1601  0.3  0.2 349672 20876 tty1     Sl   17:06   0:00 xfce4-panel --display :0.0 --sm-client-id 26b0d49f5-576e-41bd-a5cb-fd3892eed641
+omer      1606  0.6  0.3 469528 31624 tty1     Sl   17:06   0:00 Thunar --sm-client-id 2e9f73598-5280-4a1f-8c80-504e9a913c0a --daemon
+omer      1612  0.6  0.5 399880 41836 tty1     Sl   17:06   0:00 xfdesktop --display :0.0 --sm-client-id 2fd58df4a-610f-45b0-b3fa-59ad2c0f0ebe
+omer      1616  0.1  0.1 270188 14468 tty1     Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 6291464 systray Notification Area Area where notification icons appear
+omer      1617  0.1  0.1 417900 14488 tty1     Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libstatusnotifier.so 7 6291465 statusnotifier Status Notifier Plugin Provides a panel area for status notifier items (application indicators)
+omer      1618  0.4  0.2 385948 24552 tty1     Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 8 6291466 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+omer      1622  0.3  0.2 316808 23472 tty1     Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 9 6291467 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+omer      1623  0.3  0.2 316628 23300 tty1     Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 10 6291468 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+omer      1629  0.2  0.2 272952 17384 tty1     Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 14 6291469 actions Action Buttons Log out, lock or other system actions
+omer      1634  0.6  0.3 463720 25308 tty1     Sl   17:06   0:00 xfce4-terminal --geometry=190x52 --display :0.0 --role=xfce4-terminal-1635512551-479528505 --show-menubar --show-borders --hide-toolbar --active-tab --working-directory /home/omer/Desktop --sm-client-id 2f617fbe0-9fb1-476a-aa1f-9359b4356f3b
+omer      1637  0.1  0.1 1001692 14848 ?       SNl  17:06   0:00 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+omer      1654  0.0  0.0 267000  7236 ?        Ssl  17:06   0:00 xfce4-power-manager --restart --sm-client-id 2748e9813-3f63-4621-9eff-ebc3cc4b9176
+omer      1656  0.0  0.0 319876  4108 ?        Sl   17:06   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+omer      1668  0.1  0.1 340876 10400 ?        Sl   17:06   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+omer      1671  0.0  0.0 316580  3572 ?        Sl   17:06   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+omer      1689  0.0  0.0 318856  3836 ?        Sl   17:06   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+omer      1694  0.1  0.2 501628 17212 tty1     Sl   17:06   0:00 nm-applet
+omer      1703  0.0  0.0 316800  3508 ?        Sl   17:06   0:00 /usr/libexec/gvfs-goa-volume-monitor
+omer      1706  0.0  0.0  18048  3500 pts/0    Ss   17:06   0:00 bash
+omer      1715  0.0  0.0 397648  4720 ?        Sl   17:06   0:00 /usr/libexec/gvfs-afc-volume-monitor
+omer      1783  0.0  0.0 241940  3928 tty1     Sl   17:06   0:00 xiccd
+omer      1785  0.0  0.0 243104  3432 ?        Sl   17:06   0:00 /usr/libexec/gvfsd-metadata
+omer      1802  0.0  0.0 394756  5324 ?        Sl   17:06   0:00 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+omer      1835  0.0  0.0 387040  3716 ?        Sl   17:06   0:00 /usr/libexec/at-spi-bus-launcher
+omer      2056  0.2  0.0      0     0 ?        Zs   17:07   0:00 [vim] <defunct>
+omer      2067  0.0  0.0  18048  3500 pts/1    Ss   17:07   0:00 bash
+omer      2073  0.0  0.0  16796  1916 pts/1    S    17:08   0:00 /bin/bash ./sample.sh
+omer      2076  0.0  0.0  18904  2060 pts/1    R    17:08   0:00 ps -aux
 State   Recv-Q   Send-Q     Local Address:Port     Peer Address:Port  Process   
 DESKTOP-22G7I84
 16: eth0: <> mtu 1500 group default qlen 1
@@ -91,10 +82,10 @@ DESKTOP-22G7I84
     inet6 ::1/128 scope host dynamic 
        valid_lft forever preferred_lft forever
 14: wifi0: <BROADCAST,MULTICAST,UP> mtu 1500 group default qlen 1
-    link/ieee802.11 c2:6c:77:2d:ff:ca
-    inet 10.34.89.88/21 brd 10.34.95.255 scope global dynamic 
-       valid_lft 47979sec preferred_lft 47979sec
-    inet6 fe80::1887:4341:c661:7fd7/64 scope link dynamic 
+    link/ieee802.11 e4:5e:37:01:d4:ca
+    inet 192.168.1.102/24 brd 192.168.1.255 scope global dynamic 
+       valid_lft 2049sec preferred_lft 2049sec
+    inet6 fe80::315a:5574:fd37:86/64 scope link dynamic 
        valid_lft forever preferred_lft forever
 7: wifi1: <> mtu 1500 group default qlen 1
     link/ieee802.11 e4:5e:37:01:d4:cb
@@ -108,12 +99,15 @@ DESKTOP-22G7I84
        valid_lft forever preferred_lft forever
     inet6 fe80::6c6e:3661:777b:9b31/64 scope link dynamic 
        valid_lft forever preferred_lft forever
+              total        used        free      shared  buff/cache   available
+Mem:        8223128     5509824     2483952       17720      229352     2579572
+Swap:      25165824      210244    24955580
 Filesystem        Avail
-rootfs         52785264
-none           52785264
-none           52785264
-none           52785264
-none           52785264
-none           52785264
-tmpfs          52785264
-C:\            52785264
+rootfs         52812052
+none           52812052
+none           52812052
+none           52812052
+none           52812052
+none           52812052
+tmpfs          52812052
+C:\            52812052
