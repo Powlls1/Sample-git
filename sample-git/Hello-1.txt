@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 #Algorithms and programmin-1
+=======
+#CE103 Algorithms and Programmin-1
+>>>>>>> branch-1
